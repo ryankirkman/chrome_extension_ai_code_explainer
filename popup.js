@@ -46,7 +46,6 @@ async function getExplanation(code) {
         }
         options.body = JSON.stringify(options.body);
         const response = await fetch(apiUrl, options);
-        console.log('attempting to fetch');
         fetchFunction(response, outputText);
     } catch (error) {
         alert(error);
