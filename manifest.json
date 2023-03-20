@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "AI Code Explainer",
+    "version": "1.0",
+    "description": "A Chrome extension to explain highlighted code using OpenAI's APIs.",
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "storage"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "options_page": "options.html"
+}
