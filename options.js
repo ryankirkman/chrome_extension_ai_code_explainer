@@ -10,7 +10,7 @@ document.getElementById('optionsForm').addEventListener('submit', function (even
     });
 });
 
-chrome.storage.sync.get(['apiKey', 'model', 'maxTokens', 'temperature'], function (data) {
+chrome.storage.local.get(['apiKey', 'model', 'maxTokens', 'temperature'], function (data) {
     document.getElementById('apiKey').value = data.apiKey || '';
     document.getElementById('model').value = data.model || 'gpt-3.5-turbo';
     document.getElementById('maxTokens').valueAsNumber = data.maxTokens || 500;
