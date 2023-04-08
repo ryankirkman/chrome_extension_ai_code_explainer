@@ -12,4 +12,4 @@ https://user-images.githubusercontent.com/54405/226260976-53e21f31-53a3-42f0-97d
 
 # Bugs
 - Only use the right click menu -> "Explain Code". You can still click the extension icon, but it doesn't work as you expect. This is probably easy to fix.
-- Probably lots of others
+- Probably many more
